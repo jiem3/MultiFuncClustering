@@ -1,6 +1,8 @@
-There are three files and one folder under this directory, which are listed below.
+There are four files and one folder under this directory, which are listed below.
 
 Files:
+
+README.md
 
 funcs.r: contains functions used in this paper. 
 
