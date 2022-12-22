@@ -604,14 +604,14 @@ if(PLOT==TRUE){
 }
 
 
-simu.collect.Noisy<-function(path1="64_200",
-                         path2="32_200",
-                         path3="16_200",
-                         path4="8_200",
-                         nppath1="../pgseq1.5_nopen/64_200",
-                         nppath2="../pgseq1.5_nopen/32_200",
-                         nppath3="../pgseq1.5_nopen/16_200",
-                         nppath4="../pgseq1.5_nopen/8_200",
+simu.collect.Noisy<-function(path1="../results/64_200",
+                         path2="../results/32_200",
+                         path3="../results/16_200",
+                         path4="../results/8_200",
+                         nppath1="../results/64_200_np",
+                         nppath2="../results/32_200_np",
+                         nppath3="../results/16_200_np",
+                         nppath4="../results/8_200_np",
                          TABLE=TRUE,
                          PLOT=FALSE
 ){
@@ -1299,14 +1299,14 @@ if(PLOT==TRUE){
 
 
 
-simu.collect.SigS<-function(path1="16_var1",
-                             path2="16_200",
-                             path3="16_var2",
-                             path4="16_var2.5",
-                             nppath1="../pgseq1.5_nopen/16_var1",
-                             nppath2="../pgseq1.5_nopen/16_200",
-                             nppath3="../pgseq1.5_nopen/16_var2",
-                             nppath4="../pgseq1.5_nopen/16_var2.5",
+simu.collect.SigS<-function(path1="../results/16_var1",
+                             path2="../results/16_200",
+                             path3="../results/16_var2",
+                             path4="../results/16_var2.5",
+                             nppath1="../results/16_var1",
+                             nppath2="../results/16_200",
+                             nppath3="../results/16_var2",
+                             nppath4="../results/16_var2.5",
                              TABLE=TRUE,
                              PLOT=FALSE
 ){
