@@ -1,14 +1,8 @@
-R program for simulation part of 
-"Multivariate Functional Clustering with Variable Selection and Application to Sensor Data from Engineering Systems"
-by Zhongnan Jin, Jie Min, Yili Hong, Pang Du, and Qingyu Yang
-
-There are four files and one folder under this directory, which are listed below.
+There are three files and one folder under this directory, which are listed below.
 
 Files:
 
-readme.txt 
-
-funs.r: contains functions used in this paper. 
+funcs.r: contains functions used in this paper. 
 
 simures_func.r: contains functions related to simulation results evaluation. 
 
@@ -22,7 +16,7 @@ nopenalty: contains simulation codes related to no variable selection clustering
 
 penalty: contains simulation codes related to clustering with variable selection, using the three penalties mentioned in the paper.
 
-There are 10 files in each of the two folders, with the same file names.
+There are 10 files in each of the two folders.
 
 Simulation_N50.r,Simulation_N350.r, and Simulation_N500.r: codes for simulation with different sample sizes.
 (The codes for setting N200 is the same as Simulation_noise16.r.)
