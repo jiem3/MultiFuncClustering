@@ -1300,13 +1300,13 @@ if(PLOT==TRUE){
 
 
 simu.collect.SigS<-function(path1="../results/16_var1",
-                             path2="../results/16_200",
+                             path2="../results/16_var1.5",
                              path3="../results/16_var2",
                              path4="../results/16_var2.5",
-                             nppath1="../results/16_var1",
-                             nppath2="../results/16_200",
-                             nppath3="../results/16_var2",
-                             nppath4="../results/16_var2.5",
+                             nppath1="../results/16_var1_np",
+                             nppath2="../results/16_var1.5_np",
+                             nppath3="../results/16_var2_np",
+                             nppath4="../results/16_var2.5_np",
                              TABLE=TRUE,
                              PLOT=FALSE
 ){
