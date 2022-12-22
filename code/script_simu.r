@@ -45,34 +45,34 @@ figure2.plot(x='c')
 #################################Simulation Results#############################
 ##Simulation for sample size n.
 ##Inputs of the function are the directory path of the stored simulation results.
-##path1, path2, path3, path4 are directories for n=500, n=350, n=200, n=50 with penalties
-##nppath1, nppath2, nppath3, nppath4 are directories for n=500, n=350, n=200, n=50 without penalty
+##path1, path2, path3, path4 are directories for n=500, n=350, n=200, n=50 results with penalties
+##nppath1, nppath2, nppath3, nppath4 are directories for n=500, n=350, n=200, n=50 results without penalty
 
 ##Table 1
-simu.collect.N(path1,path2,path3,path4,nppath1,nppath2,nppath3,nppath4)
+simu.collect.N(path1=,path2=,path3=,path4=,nppath1=,nppath2=,nppath3=,nppath4=)
 ##Figure 3
-simu.collect.N(path1,path2,path3,path4,nppath1,nppath2,nppath3,nppath4,
+simu.collect.N(path1=,path2=,path3=,path4=,nppath1=,nppath2=,nppath3=,nppath4=,
                TABLE=FALSE,PLOT=TRUE)
 
 ##simulation for number of niosy sensors pn
 ##Inputs of the function are the directory path of the stored simulation results.
-##path1, path2, path3, path4 are directories for pn=64, pn=32, pn=16, pn=8 with penalties
-##nppath1, nppath2, nppath3, nppath4 are directories for pn=64, pn=32, pn=16, pn=8 without penalty
+##path1, path2, path3, path4 are directories for pn=64, pn=32, pn=16, pn=8 results with penalties
+##nppath1, nppath2, nppath3, nppath4 are directories for pn=64, pn=32, pn=16, pn=8 results without penalty
 
 ##Table 2
-simu.collect.Noisy(path1,path2,path3,path4,nppath1,nppath2,nppath3,nppath4)
+simu.collect.Noisy(path1=,path2=,path3=,path4=,nppath1=,nppath2=,nppath3=,nppath4=)
 ##Figure 4
-simu.collect.Noisy(path1,path2,path3,path4,nppath1,nppath2,nppath3,nppath4,
+simu.collect.Noisy(path1=,path2=,path3=,path4=,nppath1=,nppath2=,nppath3=,nppath4=,
                    TABLE=FALSE,PLOT=TRUE)
 
 ##simulation for signal strength
 ##Inputs of the function are the directory path of the stored simulation results.
-##path1, path2, path3, path4 are directories for delta=1, delta=1.5, delta=2, delta=2.5 with penalties
-##nppath1, nppath2, nppath3, nppath4 are directories for delta=1, delta=1.5, delta=2, delta=2.5  without penalty
+##path1, path2, path3, path4 are directories for delta=1, delta=1.5, delta=2, delta=2.5 results with penalties
+##nppath1, nppath2, nppath3, nppath4 are directories for delta=1, delta=1.5, delta=2, delta=2.5 results without penalty
 
 ##Table 3
-simu.collect.SigS(path1,path2,path3,path4,nppath1,nppath2,nppath3,nppath4)
+simu.collect.SigS(path1=,path2=,path3=,path4=,nppath1=,nppath2=,nppath3=,nppath4=)
 ##Figure 5
-simu.collect.SigS(path1,path2,path3,path4,nppath1,nppath2,nppath3,nppath4,
+simu.collect.SigS(path1=,path2=,path3=,path4=,nppath1=,nppath2=,nppath3=,nppath4=,
                   TABLE=FALSE,PLOT=TRUE)
 
