@@ -1,3 +1,18 @@
+The version of R libraries used in the codes are:
+mvtnorm: 1.1.3
+xts: 0.13.1
+stringr: 1.5.0
+fpca: 0.2.1
+MFPCA: 1.3.10
+Rmpfr: 0.9.2
+fda: 6.1.4
+funData: 1.3.8
+clues: 0.6.2.2
+ggplot2: 3.4.1
+Hmisc: 5.1.0
+reshape2: 1.4.4
+
+
 There are four files and one folder under this directory, which are listed below.
 
 Files:
@@ -29,16 +44,7 @@ Simulation_var1.r, Simulation_var2.r, and Simulation_var2.5.r are for simulation
 (The codes for var1.5 is the same as Simulation_noise16.r)
 
 
-Version of R libraries:
-mvtnorm: 1.1.3
-xts: 0.13.1
-stringr: 1.5.0
-fpca: 0.2.1
-MFPCA: 1.3.10
-Rmpfr: 0.9.2
-fda: 6.1.4
-funData: 1.3.8
-clues: 0.6.2.2
+
 
 
 
