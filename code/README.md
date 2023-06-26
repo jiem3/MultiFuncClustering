@@ -1,4 +1,4 @@
-The version of R libraries used in the codes are:
+The version of R packages used in the codes are:
 mvtnorm: 1.1.3
 xts: 0.13.1
 stringr: 1.5.0
@@ -13,7 +13,7 @@ Hmisc: 5.1.0
 reshape2: 1.4.4
 
 
-There are four files and one folder under this directory, which are listed below.
+There are six files and one folder under this directory, which are listed below.
 
 Files:
 
@@ -24,6 +24,10 @@ funcs.r: contains functions used in this paper.
 simures_func.r: contains functions related to simulation results evaluation. 
 
 script_simu.r: major R codes used for simulation in the paper.
+
+fpca_0.2-1.tar.gz: source for installing the fpca package.
+
+clues_0.6.2.2.tar.gz: source for installing the clues pcakge.
 
 Folder:
 
