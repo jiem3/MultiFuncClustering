@@ -12,6 +12,7 @@ clues: 0.6.2.2
 ggplot2: 3.4.1
 Hmisc: 5.1.0
 reshape2: 1.4.4
+snowfall: 1.84-6.2
 
 
 There are six files and one folder under this directory, which are listed below.
