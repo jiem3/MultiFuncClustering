@@ -26,11 +26,17 @@ simures_func.r: contains functions related to simulation results evaluation.
 
 script_simu.r: major R codes used for simulation in the paper.
 
+script_sysB.r: major R codes used for System B data analysis in the paper.
+
+sysBpca.res: functional principal component scores of the System B data used in the paper.
+
 fpca_0.2-1.tar.gz: source for installing the fpca package.
 
 clues_0.6.2.2.tar.gz: source for installing the clues pcakge.
 
 Folder:
+
+pca3: contains EM results 10 different starting points in System B data analysis.
 
 simulation_code: contains codes used for simulation analysis. There are 2 more folders inside it, which are listed below.
 
