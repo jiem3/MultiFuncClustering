@@ -11,18 +11,20 @@ source("funcs.r")
 ##It takes a long time to finish the analysis, 
 ##so we suggest to run the codes on a server using parallel computing.
 library(snowfall)
-sfSource("funcs.R")
+
 no.nodes=1
 no.cores=10
 
 sfInit(parallel=TRUE, cpus=no.cores,type="SOCK")
 sfExportAll()
 sfClusterSetupRNG(seed=round(2^32*runif(1)))
+sfSource("funcs.R")
+
 tmp=sfClusterApplyLB(1:10,real.onerun)
 sfStop()
+
 ##After running the codes above, there are saved rds files for the three different
 ##penalties with 10 different starting points in the pca3 folder
-
 EM_res_l_ind<-EM_res_l_var<-EM_res_l_group<-vector(mode="list",length=10)
 BIC_indi<-BIC_var<-BIC_group<-rep(NA,10)
 
