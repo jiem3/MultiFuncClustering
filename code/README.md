@@ -15,7 +15,7 @@ reshape2: 1.4.4
 snowfall: 1.84-6.2
 
 
-There are six files and one folder under this directory, which are listed below.
+There are eight files and two folders under this directory, which are listed below.
 
 Files:
 
